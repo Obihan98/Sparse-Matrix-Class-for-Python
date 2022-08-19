@@ -2,7 +2,7 @@
 Sparse Matrix Class created for Python
 
 Here is the sample run for the class!
-
+```
 >>> from sparse_matrix import Sparse_Matrix
 
 >>> x = Sparse_Matrix(5, 5, [0, 0, 1], [1, 1, 1], [2, 2, 1], [3, 3, 1])
@@ -115,3 +115,4 @@ Sparse_Matrix(3, 3, (0,0,1), (1,1,1), (2,2,1))
       
 >>> print(x != x)
 False
+```
